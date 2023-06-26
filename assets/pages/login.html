@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="tela-login">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Área do Cliente">
+  <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon">
+  <link rel="preload" href="../css/style.css" as="style">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Telecall - Login</title>
+</head>
+
+<body>
+  <!-- TELA LOGIN -->
+  <div class="login-principal">
+    <div class="login">
+      <a href="/index.html"><img src="../img/logo.png" alt="Logo Telecall"></a>
+      <h1>Login</h1>
+      <form action="">
+        <input type="text" placeholder="Email" name="cpf" class="input-login cpf" id="cpf" autofocus>
+        <br><br>
+        <input type="password" placeholder="Senha" name="senha" class="input-login senha" id="senha">
+        <br><br>
+        <button type="submit" class="btn login-btn" onclick="validar(this.form)">Entrar</button>
+      </form>
+      <div class="cadastrar-senha">
+        <a href="redefinir-senha.html" id="trocar">Troque sua senha<a>
+        <a href="cadastro.html">Cadastra-se</a>
+      </div>
+    </div>
+  </div>
+  <script src="../js/login.js"></script>
+  <script src="../js/darkmode.js"></script>
+</body>
+
+</html>

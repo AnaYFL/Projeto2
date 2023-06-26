@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon">
+    <meta name="description" content="Atendimento">
+    <link rel="preload" href="../css/style.css" as="style">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Telecall - Contato</title>
+</head>
+
+<body>
+    <!-- MENU NAVBAR -->
+    <header class="header">
+        <a href="/index.html"><img src="../img/logo.png" alt="Logo Telecall" width="50px" class="logo-telecall"></a>
+        <div id="menu-hamburguer">
+            <div id="menu">
+                <div class="header-chat-cliente">
+                    <a href="atendimento.html" class="area-cliente"><span><img src="../img/chat-fill.svg"></span>Contato</a>
+                    <a href="login.html" class="area-cliente"><span><img src="../img/user-solid.svg"></span>Login</a>
+                </div>
+            </div>
+        </div>
+        <div class="buttons-navbar">
+            <div class="dark">
+                <button id="dark"><img src="../img/sun.svg" alt="Botão Dark Mode"></button>
+            </div>
+            <button id="btn-mobile"><img src="../img/list.svg" alt="Botão Mobile"></button>
+        </div> 
+    </header>
+    <!-- ATENDIMENTO -->
+    <main class="atendimento">
+        <div class="atendimento-titulos">
+            <h1>Atendimento ao Cliente</h1>
+            <h2>Respostas em até 24H</h2>
+        </div>
+        <!-- DADOS -->
+        <div class="dados-form">
+            <div class="atendimento-dados">
+                <h3 class="atendimento-titulo-escritorio"><span><img src="../img/local.svg" alt="Icone Local"></span>Escritório</h3>
+                <ul>
+                    <li>Centro empresarial Mario Henrique Simonsen</li>
+                    <li>Av. das Américas, 3434 | Bloco 1, Sala 505</li>
+                    <li>Barra da Tijuca | Rio de Janeiro, RJ</li>
+                </ul>
+                <h3 class="atendimento-titulo-escritorio"><span><img src="../img/telefone.svg" alt="Icone Telefone"></span>Telefone</h3>
+                <ul>
+                    <li>(21) 3030-1010</li>
+                </ul>
+                <h3 class="atendimento-titulo-escritorio"><span><img src="../img/whatsapp2.svg" alt="Icone Whatsapp"></span>Whatsapp</h3>
+                <ul>
+                    <li>(21) 9 5318-0100</li>
+                </ul>
+                <h3 class="atendimento-titulo-email"><span><img src="../img/email.svg" alt="Icone E-mail"></span>Email</h3>
+                <ul>
+                    <li>contato@telecall.com</li>
+                    <li>sac@telecall.com</li>
+                </ul>
+            </div>
+            <!-- FORMULÁRIO -->
+            <div class="atendimento-form">
+                <form name="contato" id="contato">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    <label for="numero">Número</label>
+                    <input type="number" name="numero" id="numero" placeholder="(XX) XX XXXX-XXXX" maxlength="11" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="seu@email.com" required>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Descreva sua Mensagem" required></textarea>
+                    <div class="butao"><button type="submit" class="btn">Enviar</button></div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <!-- RODAPÉ -->
+    <footer>
+        <div>
+            <h3>Redes</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/TelecallBr">Facebook</a></li>
+                <li><a href="https://www.instagram.com/telecallbr/">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/company/telecall/">Linkedin</a></li>
+            </ul>
+        </div>
+        
+    </footer>
+    <script src="../js/script.js"></script>
+    <script src="../js/darkmode.js"></script>
+</body>
+
+</html>
